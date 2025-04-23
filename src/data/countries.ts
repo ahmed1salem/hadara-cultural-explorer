@@ -377,6 +377,246 @@ export const countries: Country[] = [
         year: 2011
       }
     ]
+  },
+  {
+    id: "iraq",
+    name: "Iraq",
+    nameArabic: "العراق",
+    flagImage: "/placeholder.svg",
+    hero: "/placeholder.svg",
+    capital: "Baghdad",
+    capitalArabic: "بغداد",
+    officialLanguage: "Arabic",
+    officialLanguageArabic: "العربية",
+    currency: "Iraqi Dinar",
+    currencyArabic: "الدينار العراقي",
+    description: "العراق مهد الحضارات القديمة وأرض الرافدين، موطن الكتابة الأولى والقوانين والفنون. يمتلك تراثاً ثقافياً وتاريخياً غنياً يمتد لآلاف السنين.",
+    history: "العراق موطن الحضارات السومرية والبابلية والآشورية، وكان مركزاً للخلافة العباسية. شهد تطورات تاريخية مهمة وكان مهداً للكثير من الإنجازات العلمية والثقافية.",
+    landmarks: [
+      {
+        id: "ziggurat-ur",
+        name: "Great Ziggurat of Ur",
+        nameArabic: "زقورة أور",
+        image: "/placeholder.svg",
+        description: "معبد سومري قديم بني في مدينة أور التاريخية، يعود تاريخه إلى الألفية الثالثة قبل الميلاد."
+      },
+      {
+        id: "babylon",
+        name: "Babylon Ruins",
+        nameArabic: "آثار بابل",
+        image: "/placeholder.svg",
+        description: "موقع مدينة بابل التاريخية، حيث توجد بوابة عشتار وحدائق بابل المعلقة."
+      }
+    ],
+    achievements: [
+      {
+        id: "writing",
+        title: "Invention of Writing",
+        titleArabic: "اختراع الكتابة",
+        description: "اختراع الكتابة المسمارية في بلاد ما بين النهرين، أول نظام كتابة في التاريخ.",
+        yearStr: "3200 ق.م"
+      }
+    ]
+  },
+  {
+    id: "jordan",
+    name: "Jordan",
+    nameArabic: "الأردن",
+    flagImage: "/placeholder.svg",
+    hero: "/placeholder.svg",
+    capital: "Amman",
+    capitalArabic: "عمّان",
+    officialLanguage: "Arabic",
+    officialLanguageArabic: "العربية",
+    currency: "Jordanian Dinar",
+    currencyArabic: "الدينار الأردني",
+    description: "الأردن مهد الحضارات القديمة ومركز سياحي عالمي، يجمع بين المواقع التاريخية الفريدة والطبيعة الخلابة.",
+    history: "شهد الأردن تعاقب العديد من الحضارات، من الأنباط إلى الرومان والبيزنطيين والعرب المسلمين. يحتضن العديد من المواقع الأثرية المهمة.",
+    landmarks: [
+      {
+        id: "petra",
+        name: "Petra",
+        nameArabic: "البتراء",
+        image: "/placeholder.svg",
+        description: "مدينة وردية اللون نحتت في الصخر، من عجائب الدنيا السبع الجديدة."
+      },
+      {
+        id: "dead-sea",
+        name: "Dead Sea",
+        nameArabic: "البحر الميت",
+        image: "/placeholder.svg",
+        description: "أخفض نقطة على سطح الأرض، معروف بمياهه شديدة الملوحة وخصائصه العلاجية."
+      }
+    ],
+    achievements: [
+      {
+        id: "petra-tourism",
+        title: "Petra New Seven Wonders",
+        titleArabic: "البتراء من عجائب الدنيا السبع",
+        description: "اختيار البتراء كإحدى عجائب الدنيا السبع الجديدة.",
+        year: 2007
+      }
+    ]
+  },
+  {
+    id: "lebanon",
+    name: "Lebanon",
+    nameArabic: "لبنان",
+    flagImage: "/placeholder.svg",
+    hero: "/placeholder.svg",
+    capital: "Beirut",
+    capitalArabic: "بيروت",
+    officialLanguage: "Arabic",
+    officialLanguageArabic: "العربية",
+    currency: "Lebanese Pound",
+    currencyArabic: "الليرة اللبنانية",
+    description: "لبنان بلد يجمع بين جمال الطبيعة والتراث الثقافي الغني، معروف بتنوعه الثقافي وتاريخه العريق.",
+    history: "لبنان موطن الفينيقيين القدماء، وكان مركزاً تجارياً مهماً عبر التاريخ. شهد تأثيرات ثقافية متنوعة عبر العصور.",
+    landmarks: [
+      {
+        id: "baalbek",
+        name: "Baalbek Temple",
+        nameArabic: "معبد بعلبك",
+        image: "/placeholder.svg",
+        description: "مجمع معابد روماني ضخم، يعد من أهم المواقع الأثرية في العالم."
+      },
+      {
+        id: "jeita",
+        name: "Jeita Grotto",
+        nameArabic: "مغارة جعيتا",
+        image: "/placeholder.svg",
+        description: "مجموعة من الكهوف الكلسية المذهلة، تعد من عجائب الطبيعة."
+      }
+    ],
+    achievements: [
+      {
+        id: "alphabet",
+        title: "Phoenician Alphabet",
+        titleArabic: "الأبجدية الفينيقية",
+        description: "تطوير الأبجدية الفينيقية التي أصبحت أساساً للعديد من أنظمة الكتابة الحديثة.",
+        yearStr: "1050 ق.م"
+      }
+    ]
+  },
+  {
+    id: "palestine",
+    name: "Palestine",
+    nameArabic: "فلسطين",
+    flagImage: "/placeholder.svg",
+    hero: "/placeholder.svg",
+    capital: "Jerusalem",
+    capitalArabic: "القدس",
+    officialLanguage: "Arabic",
+    officialLanguageArabic: "العربية",
+    currency: "Palestinian Pound",
+    currencyArabic: "الجنيه الفلسطيني",
+    description: "فلسطين أرض المقدسات وموطن للحضارات القديمة، تتميز بأهميتها التاريخية والدينية والثقافية.",
+    history: "فلسطين موطن للعديد من الحضارات القديمة وتحتضن مواقع دينية وتاريخية مهمة للديانات السماوية الثلاث.",
+    landmarks: [
+      {
+        id: "al-aqsa",
+        name: "Al-Aqsa Mosque",
+        nameArabic: "المسجد الأقصى",
+        image: "/placeholder.svg",
+        description: "ثالث الحرمين الشريفين وأولى القبلتين في الإسلام."
+      },
+      {
+        id: "church-nativity",
+        name: "Church of the Nativity",
+        nameArabic: "كنيسة المهد",
+        image: "/placeholder.svg",
+        description: "كنيسة تاريخية في بيت لحم، تعتبر مكان ولادة السيد المسيح."
+      }
+    ],
+    achievements: [
+      {
+        id: "unesco",
+        title: "UNESCO World Heritage Sites",
+        titleArabic: "مواقع التراث العالمي",
+        description: "تسجيل العديد من المواقع الفلسطينية في قائمة التراث العالمي.",
+        year: 2012
+      }
+    ]
+  },
+  {
+    id: "kuwait",
+    name: "Kuwait",
+    nameArabic: "الكويت",
+    flagImage: "/placeholder.svg",
+    hero: "/placeholder.svg",
+    capital: "Kuwait City",
+    capitalArabic: "مدينة الكويت",
+    officialLanguage: "Arabic",
+    officialLanguageArabic: "العربية",
+    currency: "Kuwaiti Dinar",
+    currencyArabic: "الدينار الكويتي",
+    description: "الكويت دولة تجمع بين التراث البحري والتطور الحضاري الحديث، تتميز بموقعها الاستراتيجي على الخليج العربي.",
+    history: "تطورت الكويت من ميناء صغير للتجارة البحرية إلى دولة حديثة، محافظة على تراثها وتقاليدها البحرية.",
+    landmarks: [
+      {
+        id: "kuwait-towers",
+        name: "Kuwait Towers",
+        nameArabic: "أبراج الكويت",
+        image: "/placeholder.svg",
+        description: "رمز معماري مميز للكويت الحديثة، تستخدم كخزانات مياه ومطاعم ومنصات مشاهدة."
+      },
+      {
+        id: "grand-mosque",
+        name: "Grand Mosque",
+        nameArabic: "المسجد الكبير",
+        image: "/placeholder.svg",
+        description: "أكبر وأهم المساجد في الكويت، يتميز بتصميمه الإسلامي المعاصر."
+      }
+    ],
+    achievements: [
+      {
+        id: "pearling",
+        title: "Pearl Diving Heritage",
+        titleArabic: "تراث الغوص على اللؤلؤ",
+        description: "الحفاظ على تراث الغوص على اللؤلؤ وتوثيقه كجزء من التراث الثقافي.",
+        yearStr: "القرن 19-20"
+      }
+    ]
+  },
+  {
+    id: "oman",
+    name: "Oman",
+    nameArabic: "عُمان",
+    flagImage: "/placeholder.svg",
+    hero: "/placeholder.svg",
+    capital: "Muscat",
+    capitalArabic: "مسقط",
+    officialLanguage: "Arabic",
+    officialLanguageArabic: "العربية",
+    currency: "Omani Rial",
+    currencyArabic: "الريال العماني",
+    description: "عُمان دولة تجمع بين الطبيعة الخلابة والتراث العريق، تشتهر بتاريخها البحري وتضاريسها المتنوعة.",
+    history: "عُمان من أقدم الدول المستقلة في المنطقة العربية، لعبت دوراً مهماً في التجارة البحرية وكانت همزة وصل بين الشرق والغرب.",
+    landmarks: [
+      {
+        id: "nizwa-fort",
+        name: "Nizwa Fort",
+        nameArabic: "قلعة نزوى",
+        image: "/placeholder.svg",
+        description: "قلعة تاريخية من القرن السابع عشر، تعد من أهم المعالم التاريخية في عُمان."
+      },
+      {
+        id: "mutrah-souq",
+        name: "Mutrah Souq",
+        nameArabic: "سوق مطرح",
+        image: "/placeholder.svg",
+        description: "سوق تقليدي عماني قديم، يعرف بتنوع بضائعه وعبقه التاريخي."
+      }
+    ],
+    achievements: [
+      {
+        id: "frankincense",
+        title: "Frankincense Trade",
+        titleArabic: "تجارة اللبان",
+        description: "إدراج طريق اللبان في عُمان ضمن قائمة التراث العالمي لليونسكو.",
+        year: 2000
+      }
+    ]
   }
 ];
 
