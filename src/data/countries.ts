@@ -1,4 +1,3 @@
-
 export interface Country {
   id: string;
   name: string;
@@ -95,22 +94,36 @@ export const countries: Country[] = [
     officialLanguageArabic: "العربية",
     currency: "Saudi Riyal",
     currencyArabic: "الريال السعودي",
-    description: "المملكة العربية السعودية هي أكبر دولة في شبه الجزيرة العربية، وتحتضن الحرمين الشريفين في مكة المكرمة والمدينة المنورة، مما يجعلها وجهة رئيسية للمسلمين حول العالم.",
-    history: "تأسست المملكة العربية السعودية الحديثة على يد الملك عبد العزيز آل سعود عام 1932م. تحتل المملكة موقعًا استراتيجيًا في قلب العالم العربي والإسلامي ولها دور محوري في تاريخ المنطقة.",
+    description: "المملكة العربية السعودية هي أكبر دولة في شبه الجزيرة العربية، وتحتضن الحرمين الشريفين في مكة المكرمة والمدينة المنورة. تشهد المملكة تطوراً مستمراً في مختلف المجالات وفق رؤية 2030.",
+    history: "تأسست المملكة العربية السعودية الحديثة على يد الملك عبد العزيز آل سعود عام 1932م. منذ ذلك الحين، شهدت المملكة تطوراً كبيراً في مختلف المجالات الاقتصادية والاجتماعية والثقافية.",
     landmarks: [
       {
         id: "masjid-al-haram",
         name: "Al-Masjid Al-Haram",
         nameArabic: "المسجد الحرام",
         image: "/placeholder.svg",
-        description: "المسجد الحرام هو أكبر مسجد في العالم ويحيط بالكعبة المشرفة، ويعد أقدس موقع في الإسلام."
+        description: "أكبر مسجد في العالم ويضم الكعبة المشرفة، قبلة المسلمين في صلاتهم"
       },
       {
-        id: "riyadh-kingdom-center",
-        name: "Kingdom Centre",
-        nameArabic: "برج المملكة",
+        id: "prophets-mosque",
+        name: "The Prophet's Mosque",
+        nameArabic: "المسجد النبوي",
         image: "/placeholder.svg",
-        description: "برج المملكة هو أحد أبرز المعالم الحديثة في الرياض، ويعد من أطول المباني في المملكة العربية السعودية."
+        description: "ثاني أقدس المساجد في الإسلام، يقع في المدينة المنورة ويضم قبر النبي محمد ﷺ"
+      },
+      {
+        id: "kingdom-centre",
+        name: "Kingdom Centre",
+        nameArabic: "مركز المملكة",
+        image: "/placeholder.svg",
+        description: "برج شاهق في قلب الرياض، يعد من أبرز معالم العمارة الحديثة في المملكة"
+      },
+      {
+        id: "edge-of-the-world",
+        name: "Edge of the World",
+        nameArabic: "حافة العالم",
+        image: "/placeholder.svg",
+        description: "موقع جيولوجي مذهل يقع شمال الرياض، يوفر إطلالة خلابة على الصحراء"
       }
     ],
     achievements: [
@@ -118,62 +131,130 @@ export const countries: Country[] = [
         id: "vision-2030",
         title: "Vision 2030",
         titleArabic: "رؤية 2030",
-        description: "خطة إستراتيجية شاملة تهدف إلى تنويع الاقتصاد وتقليل الاعتماد على النفط من خلال تطوير قطاعات متنوعة.",
+        description: "خطة إستراتيجية طموحة لتنويع الاقتصاد وتطوير القطاعات غير النفطية",
         year: 2016
-      },
-      {
-        id: "king-abdullah-university",
-        title: "King Abdullah University of Science and Technology",
-        titleArabic: "جامعة الملك عبدالله للعلوم والتقنية",
-        description: "جامعة بحثية متقدمة تركز على العلوم والتكنولوجيا والابتكار.",
-        year: 2009
       }
     ]
   },
   {
-    id: "morocco",
-    name: "Morocco",
-    nameArabic: "المغرب",
+    id: "uae",
+    name: "United Arab Emirates",
+    nameArabic: "الإمارات العربية المتحدة",
     flagImage: "/placeholder.svg",
     hero: "/placeholder.svg",
-    capital: "Rabat",
-    capitalArabic: "الرباط",
-    officialLanguage: "Arabic, Amazigh",
-    officialLanguageArabic: "العربية، الأمازيغية",
-    currency: "Moroccan Dirham",
-    currencyArabic: "الدرهم المغربي",
-    description: "المغرب بلد يقع في شمال أفريقيا، يتميز بتنوعه الثقافي والطبيعي الفريد. يشتهر بأسواقه التقليدية وعمارته الأندلسية وطبخه العالمي المشهور.",
-    history: "يمتد تاريخ المغرب إلى العصور القديمة، حيث سكنه الأمازيغ الأصليون. مر بتأثيرات متنوعة من الفينيقيين والرومان والعرب والأندلسيين والفرنسيين. استقل المغرب عام 1956، وحافظ على تراثه الثقافي الغني.",
+    capital: "Abu Dhabi",
+    capitalArabic: "أبوظبي",
+    officialLanguage: "Arabic",
+    officialLanguageArabic: "العربية",
+    currency: "UAE Dirham",
+    currencyArabic: "الدرهم الإماراتي",
+    description: "دولة حديثة تجمع بين التراث العربي الأصيل والتطور العمراني والتكنولوجي المعاصر. تعتبر مركزاً تجارياً وسياحياً عالمياً.",
+    history: "تأسست دولة الإمارات العربية المتحدة في عام 1971 باتحاد سبع إمارات. نجحت في التحول من اقتصاد يعتمد على صيد اللؤلؤ إلى قوة اقتصادية إقليمية.",
     landmarks: [
       {
-        id: "medina-fez",
-        name: "Medina of Fez",
-        nameArabic: "مدينة فاس العتيقة",
+        id: "burj-khalifa",
+        name: "Burj Khalifa",
+        nameArabic: "برج خليفة",
         image: "/placeholder.svg",
-        description: "مدينة فاس العتيقة هي أكبر منطقة حضرية خالية من السيارات في العالم وموقع للتراث العالمي لليونسكو. تأسست في القرن التاسع وتشتهر بمساجدها ومدارسها القديمة."
+        description: "أطول مبنى في العالم، يرتفع إلى 828 متراً ويعد رمزاً للتطور العمراني في دبي"
       },
       {
-        id: "hassan-tower",
-        name: "Hassan Tower",
-        nameArabic: "صومعة حسان",
+        id: "palm-jumeirah",
+        name: "Palm Jumeirah",
+        nameArabic: "نخلة جميرا",
         image: "/placeholder.svg",
-        description: "صومعة حسان هي مئذنة مسجد غير مكتمل في الرباط، بدأ بناؤها في عام 1195. تعد من أهم المعالم التاريخية في المغرب."
+        description: "جزيرة اصطناعية على شكل نخلة، تضم فنادق ومنتجعات فاخرة"
+      },
+      {
+        id: "sheikh-zayed-mosque",
+        name: "Sheikh Zayed Grand Mosque",
+        nameArabic: "جامع الشيخ زايد الكبير",
+        image: "/placeholder.svg",
+        description: "تحفة معمارية تجمع بين الفن الإسلامي والعمارة الحديثة في أبوظبي"
+      },
+      {
+        id: "dubai-mall",
+        name: "The Dubai Mall",
+        nameArabic: "دبي مول",
+        image: "/placeholder.svg",
+        description: "أكبر مركز تجاري في العالم من حيث المساحة الإجمالية"
       }
     ],
     achievements: [
       {
-        id: "moroccan-solar-project",
-        title: "Noor Solar Power Plant",
-        titleArabic: "محطة نور للطاقة الشمسية",
-        description: "أكبر محطة للطاقة الشمسية المركزة في العالم، وتعد جزءًا من استراتيجية المغرب للطاقة المتجددة.",
-        year: 2016
+        id: "expo-2020",
+        title: "Expo 2020 Dubai",
+        titleArabic: "إكسبو 2020 دبي",
+        description: "استضافة أول معرض إكسبو في الشرق الأوسط وأفريقيا وجنوب آسيا",
+        year: 2021
       },
       {
-        id: "high-speed-train",
-        title: "Al-Boraq High-Speed Train",
-        titleArabic: "قطار البراق فائق السرعة",
-        description: "أول قطار فائق السرعة في أفريقيا والعالم العربي، يربط بين طنجة والدار البيضاء.",
-        year: 2018
+        id: "hope-probe",
+        title: "Emirates Mars Mission",
+        titleArabic: "مسبار الأمل",
+        description: "أول مهمة عربية لاستكشاف المريخ",
+        year: 2021
+      }
+    ]
+  },
+  {
+    id: "qatar",
+    name: "Qatar",
+    nameArabic: "قطر",
+    flagImage: "/placeholder.svg",
+    hero: "/placeholder.svg",
+    capital: "Doha",
+    capitalArabic: "الدوحة",
+    officialLanguage: "Arabic",
+    officialLanguageArabic: "العربية",
+    currency: "Qatari Riyal",
+    currencyArabic: "الريال القطري",
+    description: "قطر دولة تجمع بين الأصالة والحداثة، وتشهد نهضة عمرانية وثقافية كبيرة. نجحت في استضافة كأس العالم 2022 وتطوير بنيتها التحتية بشكل مذهل.",
+    history: "استقلت قطر عن المملكة المتحدة في عام 1971. شهدت تطوراً سريعاً بفضل اكتشاف النفط والغاز، وأصبحت من أغنى دول العالم.",
+    landmarks: [
+      {
+        id: "national-museum",
+        name: "National Museum of Qatar",
+        nameArabic: "متحف قطر الوطني",
+        image: "/placeholder.svg",
+        description: "مبنى مستوحى من وردة الصحراء، يحكي تاريخ قطر وتراثها"
+      },
+      {
+        id: "lusail-stadium",
+        name: "Lusail Stadium",
+        nameArabic: "استاد لوسيل",
+        image: "/placeholder.svg",
+        description: "الملعب الرئيسي لكأس العالم 2022، يتسع لـ 80,000 متفرج"
+      },
+      {
+        id: "pearl-qatar",
+        name: "The Pearl-Qatar",
+        nameArabic: "اللؤلؤة-قطر",
+        image: "/placeholder.svg",
+        description: "جزيرة اصطناعية فاخرة تضم مساكن ومتاجر ومطاعم"
+      },
+      {
+        id: "katara",
+        name: "Katara Cultural Village",
+        nameArabic: "الحي الثقافي كتارا",
+        image: "/placeholder.svg",
+        description: "مجمع ثقافي يضم مسارح ومعارض ومطاعم تعكس الثقافة القطرية"
+      }
+    ],
+    achievements: [
+      {
+        id: "world-cup-2022",
+        title: "FIFA World Cup 2022",
+        titleArabic: "كأس العالم 2022",
+        description: "استضافة أول كأس عالم في الشرق الأوسط",
+        year: 2022
+      },
+      {
+        id: "education-city",
+        title: "Education City",
+        titleArabic: "المدينة التعليمية",
+        description: "مجمع تعليمي يضم فروعاً لجامعات عالمية مرموقة",
+        year: 2003
       }
     ]
   }
