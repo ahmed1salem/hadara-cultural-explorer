@@ -257,6 +257,126 @@ export const countries: Country[] = [
         year: 2003
       }
     ]
+  },
+  {
+    id: "morocco",
+    name: "Morocco",
+    nameArabic: "المغرب",
+    flagImage: "/placeholder.svg",
+    hero: "/placeholder.svg",
+    capital: "Rabat",
+    capitalArabic: "الرباط",
+    officialLanguage: "Arabic",
+    officialLanguageArabic: "العربية",
+    currency: "Moroccan Dirham",
+    currencyArabic: "الدرهم المغربي",
+    description: "المغرب هي دولة تقع في شمال أفريقيا، تتميز بتنوع ثقافي وجغرافي كبير، من جبال الأطلس إلى الصحراء الكبرى والساحل الأطلسي والمتوسطي.",
+    history: "تاريخ المغرب غني بالحضارات المتعاقبة، من الفينيقيين والرومان إلى الدول الإسلامية المختلفة. كان المغرب مركزاً مهماً للتجارة والثقافة عبر القرون.",
+    landmarks: [
+      {
+        id: "medina-fez",
+        name: "Medina of Fez",
+        nameArabic: "مدينة فاس القديمة",
+        image: "/placeholder.svg",
+        description: "أكبر منطقة مدينة قديمة في العالم، مليئة بالأزقة والمساجد والمدارس التاريخية."
+      },
+      {
+        id: "hassan-tower",
+        name: "Hassan Tower",
+        nameArabic: "صومعة حسان",
+        image: "/placeholder.svg",
+        description: "مئذنة مسجد لم يكتمل بناؤه في الرباط، تعود للقرن الثاني عشر."
+      }
+    ],
+    achievements: [
+      {
+        id: "tgv",
+        title: "Al Boraq High-Speed Rail",
+        titleArabic: "قطار البراق فائق السرعة",
+        description: "أول قطار فائق السرعة في أفريقيا والعالم العربي.",
+        year: 2018
+      }
+    ]
+  },
+  {
+    id: "algeria",
+    name: "Algeria",
+    nameArabic: "الجزائر",
+    flagImage: "/placeholder.svg",
+    hero: "/placeholder.svg",
+    capital: "Algiers",
+    capitalArabic: "الجزائر العاصمة",
+    officialLanguage: "Arabic",
+    officialLanguageArabic: "العربية",
+    currency: "Algerian Dinar",
+    currencyArabic: "الدينار الجزائري",
+    description: "الجزائر هي أكبر دولة في أفريقيا، تتميز بتنوع جغرافي كبير من البحر المتوسط إلى الصحراء الكبرى.",
+    history: "تاريخ الجزائر غني بالحضارات القديمة والنضال من أجل الاستقلال. كانت موطناً للحضارات النوميدية والرومانية والعثمانية قبل الاستقلال عن فرنسا في 1962.",
+    landmarks: [
+      {
+        id: "casbah",
+        name: "Casbah of Algiers",
+        nameArabic: "قصبة الجزائر",
+        image: "/placeholder.svg",
+        description: "مدينة تاريخية محصنة في قلب الجزائر العاصمة، مدرجة في قائمة التراث العالمي."
+      },
+      {
+        id: "djamaa-el-djazair",
+        name: "Great Mosque of Algiers",
+        nameArabic: "جامع الجزائر الأعظم",
+        image: "/placeholder.svg",
+        description: "ثالث أكبر مسجد في العالم وأكبر مسجد في أفريقيا."
+      }
+    ],
+    achievements: [
+      {
+        id: "independence",
+        title: "Independence",
+        titleArabic: "الاستقلال",
+        description: "استقلال الجزائر عن الاستعمار الفرنسي.",
+        year: 1962
+      }
+    ]
+  },
+  {
+    id: "tunisia",
+    name: "Tunisia",
+    nameArabic: "تونس",
+    flagImage: "/placeholder.svg",
+    hero: "/placeholder.svg",
+    capital: "Tunis",
+    capitalArabic: "تونس العاصمة",
+    officialLanguage: "Arabic",
+    officialLanguageArabic: "العربية",
+    currency: "Tunisian Dinar",
+    currencyArabic: "الدينار التونسي",
+    description: "تونس هي دولة تقع في شمال أفريقيا على ساحل البحر المتوسط، تشتهر بتراثها التاريخي الغني وشواطئها الجميلة.",
+    history: "تونس موطن لحضارة قرطاج القديمة، وشهدت تعاقب العديد من الحضارات. كانت مركزاً مهماً للحضارة الإسلامية في شمال أفريقيا.",
+    landmarks: [
+      {
+        id: "carthage",
+        name: "Ancient Carthage",
+        nameArabic: "قرطاج القديمة",
+        image: "/placeholder.svg",
+        description: "موقع أثري يضم بقايا المدينة الفينيقية-الرومانية القديمة."
+      },
+      {
+        id: "mosque-uqba",
+        name: "Great Mosque of Kairouan",
+        nameArabic: "جامع عقبة",
+        image: "/placeholder.svg",
+        description: "أقدم مسجد في شمال أفريقيا وأحد أهم المساجد في العالم الإسلامي."
+      }
+    ],
+    achievements: [
+      {
+        id: "democracy",
+        title: "Arab Spring",
+        titleArabic: "الربيع العربي",
+        description: "أول دولة عربية تشهد تحولاً ديمقراطياً في إطار الربيع العربي.",
+        year: 2011
+      }
+    ]
   }
 ];
 
