@@ -3,7 +3,7 @@ import { useParams } from "react-router-dom";
 import { getCountryById } from "@/data/countries";
 import Navbar from "@/components/Navbar";
 import Footer from "@/components/Footer";
-import { MapPin, Book, Trophy } from "lucide-react";
+import { MapPin, Book, Trophy, Landmark } from "lucide-react";
 import { Card, CardContent } from "@/components/ui/card";
 import { Tabs, TabsContent, TabsList, TabsTrigger } from "@/components/ui/tabs";
 import { cn } from "@/lib/utils";
